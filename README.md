@@ -140,4 +140,4 @@ A dedicated backtesting and quantitative simulation suite built in Python to eva
 
 ## 📄 Contact & Direct Inquiries
 * Direct Email: `matthew_enubuje@outlook.com`
-* Based in London, UK (Open to remote and hybrid technical writing / data roles)
+* Based in London, UK (Open to remote and hybrid roles)
