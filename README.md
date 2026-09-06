@@ -79,6 +79,10 @@ Architected the complete public-facing documentation suite and developer knowled
 * **Liquidation & Risk Workflows:** Formulated clear technical specifications explaining liquidation triggers, PegKeepers, and stability pool operations for developers and institutional partners.
 * **Information Architecture:** Built a standardised taxonomy separating high-level conceptual overviews from low-level smart contract integration parameters, accelerating partner onboarding.
 
+<p align="center">
+  <img src="./assets/quintes-homepage.png" alt="Quintes" width="700"/>
+</p>
+
 📁 *Architecture Overview & Case Study: [`/docs/quintes-case-study.md`](./docs/quintes-case-study.md)*
 
 ---
@@ -95,7 +99,7 @@ An automated, high-frequency, event-driven trading execution engine designed for
 * **Asynchronous Telemetry & Telemetry Persistence:** Deployed an `asyncio` background loop for real-time Telegram trade updates and built automated batch exporters persisting point-by-point match statistics, serve metrics, and execution logs to MongoDB.
 
 <p align="center">
-  <img src="./assets/jupiter-engine-cli.gif" alt="Jupiter Engine CLI Demo" width="700"/>
+  <img src="./assets/jupiter-tennis-ssh-terminal.png" alt="Jupiter Engine CLI Demo" width="700"/>
 </p>
 
 📁 *System Design & FSM Lifecycle Spec: [`/projects/jupiter-engine-architecture.md`](./projects/jupiter-engine-architecture.md)*
