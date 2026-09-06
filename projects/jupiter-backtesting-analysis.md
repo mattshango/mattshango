@@ -29,8 +29,8 @@ The Jupiter Backtesting Suite provides a dedicated simulation and research platf
 
 For an end-to-end recorded walkthrough of the backtest execution loop, performance scorecard computation, and deep match drill-downs, view the full high-definition video:
 
-> 🎥 **Walkthrough Video:** [Watch the Jupiter Backtesting & Analytics Engine Demo](../assets/jupiter-tennis-backtest-demo.mov)  
-> *(Note: You can also drag and drop `jupiter-tennis-backtest-demo.mov` directly into the GitHub browser editor to generate an embedded HTML5 video player).*
+> 🎥 **Walkthrough Video:** [Watch the Jupiter Backtesting & Analytics Engine Demo](../assets/jupiter-tennis-backtest-demo.mp4)  
+> *(Note: You can also drag and drop `jupiter-tennis-backtest-demo.mp4` directly into the GitHub browser editor to generate an embedded HTML5 video player).*
 
 ---
 
