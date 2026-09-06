@@ -57,3 +57,45 @@ To prevent race conditions, duplicate execution, or over-exposure during high-vo
   <br>
   <em>Figure 3: Live match execution showing algorithmic position exit, automated profit neutralisation, and sub-second alert dispatch.</em>
 </p>
+
+---
+
+## 📱 Mobile Command & Control (C2) and Operations
+
+Rather than relying on local GUI dependencies, Jupiter features a fully headless, mobile-first operations interface built on the Telegram Bot API.
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="../assets/telegram-controller.png" alt="Main Dashboard C2" />
+      <br><strong>System Control Hub</strong>
+    </td>
+    <td width="33%" align="center">
+      <img src="../assets/telegram-controller-live-matches.png" alt="Active Session Routing" />
+      <br><strong>Session Discovery</strong>
+    </td>
+    <td width="33%" align="center">
+      <img src="../assets/telegram-controller-live-match.png" alt="Runtime Parameter Adjustment" />
+      <br><strong>Per-Market Overrides</strong>
+    </td>
+  </tr>
+</table>
+
+* **Dynamic In-Flight Parameter Tuning:** Operators can toggle auto-staking, modify maximum stake liability, alter sweep levels, and adjust order expiry timeouts directly from mobile devices without restarting background daemons.
+* **Isolated Asynchronous Communications:** Notifications, P&L reporting, and alerts operate inside an independent `asyncio` event loop to guarantee messaging delays never block exchange execution threads.
+
+<p align="center">
+  <img src="../assets/telegram-alerts.png" alt="Automated Trade Logs and Realised PnL" width="450"/>
+  <br>
+  <em>Figure 4: Asynchronous order dispatch logs, automated cashouts, and final P&L reconciliation alerts.</em>
+</p>
+
+---
+
+## 🧠 Pluggable Strategy Architecture
+
+The engine decouples core execution mechanics from mathematical and quantitative strategies using a modular registry pattern:
+
+* **Modular Strategy Interface:** Isolated execution pipelines that inherit standard trade parameters, market state subscriptions, and order dispatch abstractions without exposing underlying alpha logic.
+* **Pre-Loaded Scenario Matrices:** Pre-computes thousands of scenario transition matrices directly into RAM (e.g. 6,000+ ATP scenarios) upon system initialisation, ensuring sub-millisecond evaluation against live ticks without runtime database lookups.
+* **Dynamic Registration:** New quantitative models, volatility triggers, and machine learning scoring mechanisms can be registered into the system registry seamlessly without modifying the core state engine or network adapters.
