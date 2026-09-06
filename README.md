@@ -19,10 +19,10 @@ My core domain expertise spans **prediction markets and sports exchange infrastr
 
 ### 📬 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matthew-e-7b161410b/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matthew_enubuje@outlook.com)
+<a href="https://www.linkedin.com/in/matthew-e-7b161410b/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:matthew_enubuje@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
-[LinkedIn](https://www.linkedin.com/in/matthew-e-7b161410b/) • [Email](mailto:matthew_enubuje@outlook.com) • Location: London, UK
+📍 **Location:** London, UK (Open to remote and hybrid technical writing / quantitative data roles)
 
 ---
 
@@ -35,15 +35,13 @@ My core domain expertise spans **prediction markets and sports exchange infrastr
 
 * **Discovering Short-Term Inefficiencies in High-Frequency Sports Markets via Deep Sequence Modelling** *Author:* Matthew Enubuje  
   *Focus:* Context-Aware Recurrent Architectures, Multivariate Time-Series, Limit Order Book Microstructure  
-  * **Abstract:** Architected a PyTorch Context-Aware Gated Recurrent Unit (GRU) to forecast $\ge 0.20$ implied probability drops within 300-second windows across 40M+ ATP tick records. Achieved an average Out-of-Sample Walk-Forward Optimisation ROI of **+257.10%** across 16,500+ blind evaluation trades under a 1:2 risk/reward framework.
-  
-  📁 *[Read Full Paper (PDF)](https://docsend.com/view/b8naukekju6wbpre)*
+  * **Abstract:** Architected a PyTorch Context-Aware Gated Recurrent Unit (GRU) to forecast $\ge 0.20$ implied probability drops within 300-second windows across 40M+ ATP tick records. Achieved an average Out-of-Sample Walk-Forward Optimisation ROI of **+257.10%** across 16,500+ blind evaluation trades under a 1:2 risk/reward framework.  
+  📁 <a href="https://docsend.com/view/b8naukekju6wbpre" target="_blank" rel="noopener noreferrer">**Read Full Paper (Instant Access via DocSend)**</a>
 
 * **Sentiment Analysis in Tennis: Correlating Sentiment Scores with Match Outcomes and Odds Movements** *Author:* Matthew Enubuje  
   *Focus:* Natural Language Processing, VADER Lexicon Modelling, K-Means Volatility Clustering  
-  * **Abstract:** Analysed live fan sentiment during professional tournaments by pairing streamed social text data with set-by-set exchange odds across 180 matches. Applied VADER polarity scoring and K-Means clustering ($k=3$) to identify behavioural lag and pricing inefficiencies during match momentum shifts.
-  
-  📁 *[Read Full Paper (PDF)](https://docsend.com/view/m4mrv375b7kfkahu)*
+  * **Abstract:** Analysed live fan sentiment during professional tournaments by pairing streamed social text data with set-by-set exchange odds across 180 matches. Applied VADER polarity scoring and K-Means clustering ($k=3$) to identify behavioural lag and pricing inefficiencies during match momentum shifts.  
+  📁 <a href="https://docsend.com/view/m4mrv375b7kfkahu" target="_blank" rel="noopener noreferrer">**Read Full Paper (Instant Access via DocSend)**</a>
 
 ---
 
@@ -73,7 +71,7 @@ My core domain expertise spans **prediction markets and sports exchange infrastr
 
 ### 1. Protocol Architecture & Developer Documentation: Quintes
 **Focus:** Technical Writing • System Specifications • Tokenomic Mechanics  
-🔗 **Live Docs:** [quintes.gitbook.io/quintes](https://quintes.gitbook.io/quintes)
+🔗 <a href="https://quintes.gitbook.io/quintes" target="_blank" rel="noopener noreferrer">**Live Documentation**</a>
 
 Architected the complete public-facing documentation suite and developer knowledge base for an institutional Real-World Asset (RWA) protocol:
 
