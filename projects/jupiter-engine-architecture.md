@@ -23,17 +23,9 @@ Operating in fast-paced live sports markets introduces severe operational risks:
 
 ## 🏗️ Ingestion & Execution Pipeline
 
-The architecture strictly decouples market ingestion, execution logic, and remote operator controls.
+The architecture strictly decouples market ingestion, execution logic, and remote operator controls into independent subsystems:
 
-<!-- Replace the path below once you export your diagram from Lucidchart -->
-<p align="center">
-  <img src="../assets/jupiter-system-pipeline.png" alt="Jupiter System Pipeline Diagram" width="850"/>
-  <br>
-  <em>Figure 2: End-to-end execution pipeline from exchange push feeds to local state cache and remote controls.</em>
-</p>
-
-### 1. Dual Ingestion Layer: Streaming & Polling
-* **Low-Latency Push Streaming:** Leverages direct TLS WebSockets with packet conflation (configurable, down to 500ms intervals) to capture market depth updates and order fill confirmations without polling overhead.
+* **Low-Latency Push Streaming:** Leverages direct TLS WebSockets with packet conflation (configurable, down to 500ms intervals) to capture real-time market depth updates and order fill confirmations without polling overhead.
 * **Automated REST Fallback:** Maintains a thread-safe REST polling engine (configurable interval, default 2s) to dynamically audit exchange state, verify token authorisations, and provide resilience against WebSocket disconnections.
 * **Local In-Memory Cache:** Subscribes to private execution streams to locally track gross profit, exposure limits, and pending order expirations, avoiding external network hops during critical risk calculations.
 
@@ -60,7 +52,7 @@ To prevent race conditions, duplicate execution, or over-exposure during high-vo
 
 ---
 
-## 📱 Mobile Command & Control (C2) and Operations
+## 📱 Telegram/Mobile Command & Control (C2) and Operations
 
 Rather than relying on local GUI dependencies, Jupiter features a fully headless, mobile-first operations interface built on the Telegram Bot API.
 
@@ -76,7 +68,7 @@ Rather than relying on local GUI dependencies, Jupiter features a fully headless
     </td>
     <td width="33%" align="center">
       <img src="../assets/telegram-controller-live-match.png" alt="Runtime Parameter Adjustment" />
-      <br><strong>Per-Market Overrides</strong>
+      <br><strong>Settings Override</strong>
     </td>
   </tr>
 </table>
@@ -99,3 +91,12 @@ The engine decouples core execution mechanics from mathematical and quantitative
 * **Modular Strategy Interface:** Isolated execution pipelines that inherit standard trade parameters, market state subscriptions, and order dispatch abstractions without exposing underlying alpha logic.
 * **Pre-Loaded Scenario Matrices:** Pre-computes thousands of scenario transition matrices directly into RAM (e.g. 6,000+ ATP scenarios) upon system initialisation, ensuring sub-millisecond evaluation against live ticks without runtime database lookups.
 * **Dynamic Registration:** New quantitative models, volatility triggers, and machine learning scoring mechanisms can be registered into the system registry seamlessly without modifying the core state engine or network adapters.
+
+---
+
+## 🛠️ Stack & Infrastructure
+
+* **Core Runtime:** Python 3.10+ (Daemonised via `systemd` on headless Linux VPS)
+* **Networking & Protocols:** Direct TLS WebSockets (push streaming), REST APIs (pull/audit fallback)
+* **Concurrency:** Asyncio, Threading Mutex Locks, UNIX Signal Interception (`SIGINT`/`SIGTERM`)
+* **Remote Management:** Telegram Bot API (Inline Keyboards, Callback Queries)
