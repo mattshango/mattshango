@@ -14,7 +14,7 @@ Jupiter is an automated, event-driven algorithmic trading engine engineered for 
 Operating in fast-paced live sports markets introduces severe operational risks: REST polling rate limits, API timeouts, slippage during critical game points, and state ambiguity. Jupiter neutralises these bottlenecks by combining a dual-mode ingestion layer (hybrid WebSocket push streaming with fallback REST polling), a deterministic Finite State Machine (FSM), and a plug-and-play strategy interface.
 
 <p align="center">
-  <img src="../assets/jupiter-tennis-ssh-terminal.jpg" alt="Jupiter Production Daemon on Linux VPS" width="850"/>
+  <img src="../assets/jupiter-tennis-ssh-terminal.png" alt="Jupiter Production Daemon on Linux VPS" width="850"/>
   <br>
   <em>Figure 1: Production daemon initialising on Linux VPS, compiling scenario matrix into RAM and spinning up session threads.</em>
 </p>
@@ -53,7 +53,7 @@ To prevent race conditions, duplicate execution, or over-exposure during high-vo
 
 <!-- VIDEO OR GIF OF THE MATCH POSITION AUTO-CLOSING -->
 <p align="center">
-  <img src="../assets/jupiter-auto-close-trade.gif" alt="Automated Trade Cashout and Telegram Alert" width="750"/>
+  <img src="../assets/jupiter-auto-close-trade.gif" alt="Automated Trade Cashout and Telegram Alert" width="350"/>
   <br>
   <em>Figure 3: Live match execution showing algorithmic position exit, automated profit neutralisation, and sub-second alert dispatch.</em>
 </p>
