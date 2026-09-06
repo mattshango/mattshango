@@ -62,7 +62,7 @@ An automated, high-frequency, event-driven trading execution engine designed for
   <img src="./assets/jupiter-engine-cli.gif" alt="Jupiter Engine CLI Demo" width="700"/>
 </p>
 
-📁 *System Design & FSM Lifecycle Spec: [`/projects/jupiter-engine-architecture.md`](./projects/jupiter-architecture.md)*
+📁 *System Design & FSM Lifecycle Spec: [`/projects/jupiter-engine-architecture.md`](./projects/jupiter-engine-architecture.md)*
 
 ---
 
@@ -82,7 +82,7 @@ A dedicated backtesting and quantitative simulation suite built in Python to eva
   <img src="./assets/jupiter-tennis-backtest-demo.gif" alt="Jupiter Streamlit Backtest UI" width="700"/>
 </p>
 
-📁 *Quantitative Pipeline & Backtesting Breakdown: [`/projects/jupiter-backtesting-analysis.md`](./projects/jupiter-architecture.md)*
+📁 *Quantitative Pipeline & Backtesting Breakdown: [`/projects/jupiter-backtesting-analysis.md`](./projects/jupiter-backtesting-analysis.md)*
 
 ---
 
