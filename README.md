@@ -79,7 +79,7 @@ A dedicated backtesting and quantitative simulation suite built in Python to eva
 
 <!-- Replace with your actual paths/assets -->
 <p align="center">
-  <img src="./assets/jupiter-backtest-dashboard.png" alt="Jupiter Streamlit Backtest UI" width="700"/>
+  <img src="./assets/jupiter-tennis-backtest-demo.gif" alt="Jupiter Streamlit Backtest UI" width="700"/>
 </p>
 
 📁 *Quantitative Pipeline & Backtesting Breakdown: [`/projects/jupiter-backtesting-analysis.md`](./projects/jupiter-architecture.md)*
