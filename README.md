@@ -36,12 +36,12 @@ My core domain expertise spans **prediction markets and sports exchange infrastr
 * **Discovering Short-Term Inefficiencies in High-Frequency Sports Markets via Deep Sequence Modelling** *Author:* Matthew Enubuje  
   *Focus:* Context-Aware Recurrent Architectures, Multivariate Time-Series, Limit Order Book Microstructure  
   * **Abstract:** Architected a PyTorch Context-Aware Gated Recurrent Unit (GRU) to forecast $\ge 0.20$ implied probability drops within 300-second windows across 40M+ ATP tick records. Achieved an average Out-of-Sample Walk-Forward Optimisation ROI of **+257.10%** across 16,500+ blind evaluation trades under a 1:2 risk/reward framework.  
-  📁 *[Read Full Paper (PDF)](./research/Deep_Sequence_Modelling_Sports.pdf)*
+  📁 *[Read Full Paper (PDF)](https://docsend.com/view/b8naukekju6wbpre)*
 
 * **Sentiment Analysis in Tennis: Correlating Sentiment Scores with Match Outcomes and Odds Movements** *Author:* Matthew Enubuje  
   *Focus:* Natural Language Processing, VADER Lexicon Modelling, K-Means Volatility Clustering  
-  * **Abstract:** Analysed live fan sentiment during professional tournaments by pairing streamed social text data with set-by-set exchange odds across 180 matches. Applied VADER polarity scoring and K-Means clustering ($k=3$) to identify behavioural lag and pricing inefficiencies during match momentum shifts.  
-  📁 *[Read Full Paper (PDF)](./research/Sentiment_Analysis_Tennis.pdf)*
+  * **Abstract:** Analysed live fan sentiment during professional tournaments by pairing streamed social text data with set-by-set exchange odds across 180 matches. Applied VADER polarity scoring and K-Means clustering ($k=3$) to identify behavioural lag and pricing inefficiencies during match momentum shifts.
+  📁 *[Read Full Paper (PDF)](https://docsend.com/view/m4mrv375b7kfkahu)*
 
 ---
 
