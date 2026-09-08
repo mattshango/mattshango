@@ -133,7 +133,7 @@ A dedicated backtesting and quantitative simulation suite built in Python to eva
   * Evaluated and optimised frontier Large Language Model (LLM) responses across reinforcement learning from human feedback (RLHF) and fine-tuning pipelines, designing adversarial test cases and benchmarking multi-modal reasoning.
 * **Senior Marketing Manager** | *TradrLab* (Feb 2022 – Jul 2024)  
   * Spearheaded product marketing and technical communications for a natural-language AI algorithmic trading platform, scaling early user adoption across quantitative finance and trading communities.
-* **Business Developer & Sales** | *Facesoft* (Mar 2019 – Aug 2019)  
+* **Business Developer & Sales Intern** | *Facesoft* (Mar 2019 – Aug 2019)  
   * Executed hybrid technical writing, developer relations, and business development initiatives for an Imperial College London-incubated computer vision and AI facial recognition startup.
 
 ---
