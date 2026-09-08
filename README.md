@@ -1,5 +1,5 @@
 # Matthew Enubuje
-### Technical Writer & Quantitative Data Analyst
+### Quantitative Data Analyst & Technical Writer
 
 Hi, I'm Matthew 👋
 
