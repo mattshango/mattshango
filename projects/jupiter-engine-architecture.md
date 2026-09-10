@@ -3,7 +3,7 @@
 **Role:** Quantitative Systems Architect & Systems Engineer  
 **Focus:** Dual Ingestion (WebSockets & REST), Finite State Machines, Mobile Remote C2  
 **Stack:** Python 3.10+, Asynchronous WebSockets, REST APIs, Telegram Bot API, Linux (Vultr VPS)  
-**Status:** Proprietary Commercial Infrastructure (Codebase private; architectural breakdown and metrics below)
+**Status:** Proprietary Execution Infrastructure (Codebase private; architectural breakdown and metrics below)
 
 ---
 
