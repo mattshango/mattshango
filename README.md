@@ -47,7 +47,7 @@ My core domain expertise spans **prediction markets and sports exchange infrastr
 
 ## 🛠️ Core Technical Stack
 
-### Languages & Data Modeling
+### Languages & Data Modelling
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -89,7 +89,7 @@ Architected the complete public-facing documentation suite and developer knowled
 
 ### 2. Jupiter Tennis: Event-Driven Algorithmic Trading Engine
 **Focus:** Systems Architecture • WebSocket Streaming • Finite State Machine (FSM)  
-🔒 **Proprietary Commercial Pipeline** *(Codebase private; architectural breakdown and UI demo below)*
+🔒 **Proprietary Quantitative Systems Architecture** *(Codebase private; architectural breakdown and UI demo below)*
 
 An automated, high-frequency, event-driven trading execution engine designed for live prediction markets and exchange order books. The system bypasses REST polling limitations via direct WebSocket stream ingestion, local state synchronisation, and strict concurrency controls:
 
